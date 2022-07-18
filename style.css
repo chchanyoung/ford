@@ -1,0 +1,16 @@
+*{margin: 0;padding: 0;list-style: none;}
+#wrap {width: 1440px; padding: 50px 0; border: 1px solid #dbdbdb; margin: auto;}
+#color_box {width: 1440px; height: 900px; background-color: #fff;}
+#color_car {width: 1438px;}
+#color_box h2 {height: 90px; font-size: 36px; line-height: 40px; text-align: center; color: #616161; font-weight: lighter;}
+#color_box h3 {width: 92px; height: 60px; border-bottom: 5px solid #1a394e;font-size: 16px; line-height: 60px; text-align: center; color: #00095b; margin: auto;}
+#color_box p {font-size: 22px; color: #1a394e; text-align: center; height: 60px; line-height: 60px; font-weight: bold;}
+#color_bt {margin-top: 20px; text-align: center;}
+#color_bt li{width: 70px; height: 70px; display: inline-block; position: relative; cursor: pointer;}
+.color_bt_bg {width: 100%;}
+.color_bt_click {position: absolute; left: 0;top: 0;right: 0;bottom: 0; margin: auto; display: none;}
+#color_bt>li:first-child .color_bt_click {display: inline-block;}
+#vr {width: 100%; position: relative; }
+#vr_car {width: 100%; vertical-align: top;}
+#vr_next_btn {position: absolute; right: 20px; top: 0; bottom: 0;top: 0; margin: auto;}
+#vr_prev_btn {position: absolute; left: 20px; top: 0;bottom: 0; margin: auto;}
